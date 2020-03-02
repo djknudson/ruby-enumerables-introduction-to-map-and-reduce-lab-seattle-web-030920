@@ -52,3 +52,14 @@ def reduce_to_all_true(source_array)
   end
   output
 end
+
+def reduce_to_any_true(source_array)
+  output = false
+  source_array.each do |element|
+    if element
+      output = true
+      return output
+    end
+  end
+  output
+end
