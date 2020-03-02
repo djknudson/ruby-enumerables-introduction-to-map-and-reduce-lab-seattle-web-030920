@@ -49,5 +49,6 @@ def reduce_to_all_true(source_array)
       output = false
       return output
     end
+  end  
   output
 end
